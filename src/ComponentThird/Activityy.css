@@ -1,0 +1,28 @@
+.act{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(192, 235, 117);
+    max-width: 300px;
+    min-width: 200px;
+    min-height: 230px;
+    max-height: 230px;
+}
+.week{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.week h5{
+    display: inline-flex;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.week select{
+    height: 20px;
+    display: inline-flex;
+}
+.barchart{
+    display: inline-flex;
+    margin-bottom: 0%;
+    margin-top: 20px;
+}

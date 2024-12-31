@@ -1,0 +1,29 @@
+.heart{
+    background-color: rgb(254, 91, 91);
+    max-width: 180px;
+    min-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+.pulserate{
+    display: flex;
+    flex-direction: row;
+}
+.heart h4{
+ display: inline-flex;
+ color:rgb(237, 227, 227);
+ margin-top: 10px;
+}
+.hearticon{
+    display: inline-flex;
+    color: rgb(237, 227, 227);
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}.heartchart{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}

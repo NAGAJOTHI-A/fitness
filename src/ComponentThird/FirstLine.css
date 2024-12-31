@@ -1,0 +1,22 @@
+.firstLineCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.fLineStep{
+ display: inline-flex;
+ 
+}
+.fLineWater{
+   display: inline-flex;
+ 
+}
+.fLineWater{  
+    display: inline-flex;
+    
+}
+.fLineHeart{ 
+    display: inline-flex;
+  
+}

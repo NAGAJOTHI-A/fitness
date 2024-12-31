@@ -1,0 +1,4 @@
+.formpersonal{
+    display:flex;
+    flex-direction: column;
+}

@@ -1,0 +1,14 @@
+.biggcharts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.firstact{
+ display: inline-flex;
+ margin-right: 10px;
+}
+.secprogres{
+    display: inline-flex;
+
+}

@@ -1,0 +1,87 @@
+.navigation {
+    width: 80px;
+    height: 100vh;
+    background-color: #eef6ed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-logo {
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7cb342;
+    text-align: center;
+  }
+  
+  .logo-img {
+    width: 30px;
+    height: 40px;
+    margin-bottom: 10px; /* Space between the icon and "Healthy" */
+    display: block; /* Ensures it's treated as a block element */
+    margin-left: auto; /* Centers horizontally */
+    margin-right: auto; /* Centers horizontally */
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .nav-item:hover {
+    background-color: #c8e6c9;
+  }
+  
+  .icon {
+    min-width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .icon.home {
+    background-image: url("https://play-lh.googleusercontent.com/0ZuE5nWIC9O6qI76c0HnziLVHizhPQnWEVHKtxTEmPxUQSBwf--HBCpZo5uSONWLMIM"); /* Replace with actual icon URL */
+  }
+  
+  .icon.trends {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZWdOPeojqCn_-LhoXkDCBOiYLGnDN20UiD2BvNhsgsoJe_VryDfJg7EpWMmktKOwbws&usqp=CAU"); /* Replace with actual icon URL */
+  }
+  
+  .icon.profile {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/51026c42e4b0696772c000f8/1367442303313-C5AJMX1RE5NZ4B9SDM4K/SBR-run.jpg"); /* Replace with actual icon URL */
+  }
+  
+  .icon.chat {
+    background-image: url("https://cdn-icons-png.freepik.com/512/3674/3674855.png"); /* Replace with actual icon URL */
+  }
+  
+  .icon.location {
+    background-image: url("https://cdn.prod.website-files.com/63ebb9bcdb3fa05b439326d3/66a117e9e0d7b7aa75278e43_market%20icon.png"); /* Replace with actual icon URL */
+  }
+  
+  .icon.settings {
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.tqapi2eCvhK7BG30URC69wHaHa&pid=Api&P=0&h=180"); /* Replace with actual icon URL */
+  }
+  
+  .icon.payment {
+    background-image: url("https://cdn-icons-png.freepik.com/256/17522/17522371.png"); /* Replace with actual icon URL */
+  }

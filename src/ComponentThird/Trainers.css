@@ -1,0 +1,75 @@
+.trainerprofile{
+    display: flex;
+    flex-direction: column;
+  }
+  .trainerprofile h4{
+    margin-left: 5px;
+  }
+  .trainer-section {
+      display: flex;
+     /* Adjust width to give spacing on the sides */
+      background-color: #ebf5d3f3;
+      flex-direction: row;
+      min-width: 580px;
+      max-width: 600px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .trainer-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      min-width: 215px;
+      min-height: 340px;
+      padding: 10px;
+      margin-left: 20px;
+    }
+    
+    .trainer-bg {
+      height: 150px;
+      background-image: url("https://tse1.mm.bing.net/th?id=OIP.wxmXFRBAH1qg9iO624_BMAHaE8&pid=Api&P=0&h=180");
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      position: relative;
+    }
+    
+    .trainer-profile {
+      position: absolute;
+      bottom: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: white;
+      border-radius: 50%;
+      padding: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .trainer-photo {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    
+    .trainer-info {
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    .trainer-stats {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 10px 0;
+    }
+    
+    .view-profile {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    

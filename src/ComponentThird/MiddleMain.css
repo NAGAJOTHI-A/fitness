@@ -1,0 +1,17 @@
+.middlechart{
+    display: flex;
+    flex-direction: column;
+}
+.welcome{
+    display:flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.welcome h5{
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+.welcome h3{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}

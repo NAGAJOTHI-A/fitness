@@ -1,0 +1,36 @@
+.steps{
+    background-color: rgb(80, 187, 132);
+    max-width: 180px;
+    min-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.runstep h4{
+ display: inline-flex;
+ color:rgb(237, 227, 227);
+ margin-bottom: 0%;
+ margin-top: 10px;
+}
+.steps h5{
+    margin-top: 10px;
+    margin-bottom: 0%;
+    display: inline-flex;
+    margin-left: 10px;
+}
+.runstep{
+  display: flex;
+  flex-direction: row;
+}
+.stepicon{
+    margin-left: 10px;
+    color: rgb(237, 227, 227);
+    display: inline-flex;
+    margin-top: 10px;
+    
+}.stepchart{
+    display: inline-flex;
+    margin-left: 10px;
+
+}

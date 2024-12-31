@@ -1,0 +1,59 @@
+.usecard{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    min-width: 190px;
+    max-height: 60px;
+    background:#ffffff ;
+    border-radius: 10px;   
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-top: 5px;
+   
+}
+.usepower h3{
+    font-size: 13px;
+    margin-left: 5px;
+    display:inline-flex;
+    margin-bottom: 0%;
+    margin-top: 10px;
+}
+
+.usepower{
+  display: flex;
+  flex-direction: row;
+}
+.usericon{ 
+    background: linear-gradient(90deg, #d0d7bfb2, #b6bba195);  
+    justify-content: space-between;
+    display:inline-flex;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+
+  }
+  .powericon{
+    display:inline-flex;
+    margin-left: 70px;
+    color: #99a08a;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .locat{
+    display: flex;
+    flex-direction: row;
+  }
+  .locat h5{
+    font-size: 10px;
+    display: inline-flex;
+    color: #99a08a;
+    margin-top: 0%;
+}
+  .locicon{
+    display:inline-flex;
+    margin-left: 30px;
+    margin-right:2%;
+    color: #99a08a;
+    margin-top: 0%;
+  }

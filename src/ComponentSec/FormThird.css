@@ -1,0 +1,24 @@
+.forminput{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    max-width: 230px;
+    min-width: 210px;
+    max-height: 200px;
+}
+
+.forminput input:focus{
+    outline: none;
+  }
+  input::placeholder{
+    color:black;
+  }
+.forminput input{
+    padding: 5px;
+    color: #111815; 
+    border: none;
+    width: 210px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
