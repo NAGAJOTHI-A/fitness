@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fitness/static/css/main.a976ca72.css",
+    "main.js": "/fitness/static/js/main.597cd785.js",
+    "static/js/453.c232363a.chunk.js": "/fitness/static/js/453.c232363a.chunk.js",
+    "index.html": "/fitness/index.html",
+    "main.a976ca72.css.map": "/fitness/static/css/main.a976ca72.css.map",
+    "main.597cd785.js.map": "/fitness/static/js/main.597cd785.js.map",
+    "453.c232363a.chunk.js.map": "/fitness/static/js/453.c232363a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a976ca72.css",
+    "static/js/main.597cd785.js"
+  ]
+}
