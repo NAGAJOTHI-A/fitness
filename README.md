@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+FITNESS TRACKER
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The "Fitness Tracker" is a app designed to monitor and track physical activities, health metrics, and fitness goals. It typically records data such as steps taken, calories burned, heart rate, and exercise routines. Fitness tracker provide insights to help users maintain a healthy lifestyle, set fitness goals, and monitor progress over time.
 
-## Available Scripts
 
-In the project directory, you can run:
+FEATURES:
 
-### `npm start`
+Steps: The feature "Steps" calculate the steps taken by the user throughout the day.
+Water: The feature "Water" calculates how many litres of Water is taken by the user throughout the day.
+Calories: The feature "calories" estimates the calories burnt by the user throughout the day. 
+Heart Rate: The feature "Heart Rate" continuously calculates the user's heart rate during both rest and activities throughout the day.
+Activity: The feature "Activity" detects the user's activities like walking, running and shows the results as a bar graph. In this feature users can switch between weekly and monthly option.
+Progress: The feature "Progress" shows the progress of their exercise routine like cardio, stretching, treadmill, and strengthening( in hours) in a day.  
+Recommended Trainer For You: This feature helps the users by suggesting them the fitness specialist who suits their goals and exercise routine.
+Diet: This feature suggests the user's meal based on their fitness goals.
+Your Goals: This feature shows the user's daily goals set by the them.
+Scheduled: This feature helps the user to remember the classes like yoga class and swimming class scheduled by them with date in it.
+Edit your profile: This feature helps the user set their profile like their personal information( name, location, DOB, weight, height) and their fitness goals.
+Navigation Bar( Left side): This feature helps the users to navigate between different pages easily.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+INSTALLATION:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.To utilize bar charts, doughnut charts, and line graphs in our project, we integrated an external library, Chart.js, along with its React wrapper. 
+This was achieved by executing the following command:
 
-### `npm run build`
+npm install --save chart.js react-chartjs-2
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.To incorporate icons into our project, we utilized the FontAwesome Icons library. The following commands were executed to install the necessary packages:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+npm i --save @fortawesome/react-fontawesome@latest
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+3.To enable navigation between different pages in our project, we integrated the React Router DOM library. This was accomplished by running the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ npm i react-router-dom
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4.To incorporate emojis into our project seamlessly, we utilized the "Emojisense" extension for Visual Studio Code.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+CONTACTS: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+TEAM MEMBERS:
+ 
+Nagajothi A
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+anagajothi1372004@gmail.com
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Rajasowmya B 
+ 
+rajasowmyabaskaran@gmail.com
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub Link: https://github.com/NAGAJOTHI-A/fitness
